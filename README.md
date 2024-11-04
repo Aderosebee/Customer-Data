@@ -104,6 +104,13 @@ Order by total_customers desc;
 ```
 ![Popular subscription by customers](https://github.com/user-attachments/assets/6e053364-c7e5-48b0-8057-28c48a6ecc19)
 
+- Subscription type by Total revenue
+```SELECT subscriptiontype,
+       SUM(revenue) AS total_revenue
+FROM [dbo].[CUSTOMER DATA1]
+GROUP BY subscriptiontype;
+```
+![Sub type bytotal revenue](https://github.com/user-attachments/assets/d63be903-e570-4120-953a-b68540942d9f)
 
 
 
