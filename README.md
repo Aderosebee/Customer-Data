@@ -80,6 +80,15 @@ Columns: 8 Columns
 -  Total sales per product
 ![Excel Pivot](https://github.com/user-attachments/assets/8b1e896d-551d-4747-8a6d-5255625e43cb)
 
+#### SQL Data Analysis
+This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
+---
+- Show the table
+```
+select * from [dbo].[CUSTOMER DATA1]
+```
+![Show table](https://github.com/user-attachments/assets/43ee9086-d074-4c34-9db5-fa996c8ddab8)
+
   
 
 
