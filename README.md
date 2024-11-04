@@ -89,7 +89,22 @@ select * from [dbo].[CUSTOMER DATA1]
 ```
 ![Show table](https://github.com/user-attachments/assets/43ee9086-d074-4c34-9db5-fa996c8ddab8)
 
-  
+- Total number of customers by region
+```Select  region, count(distinct Customerid) as total_customers 
+from [dbo].[CUSTOMER DATA1]
+Group by region;
+  ```
+![Total customers by region](https://github.com/user-attachments/assets/a7164551-88a1-4020-9cfa-ac5b3047c8eb)
+
+- Most poular subscription by number of customers
+```Select top 1 subscriptiontype, count(distinct customerid) as total_customers
+From [dbo].[CUSTOMER DATA1]
+Group by subscriptiontype 
+Order by total_customers desc;
+```
+![Popular subscription by customers](https://github.com/user-attachments/assets/6e053364-c7e5-48b0-8057-28c48a6ecc19)
+
+
 
 
 
