@@ -69,9 +69,17 @@ In the intial phase of Data Cleaning and Preparations, we perform the following 
 ###  Exploratory Data Analysis
 ---
 EDA are set of steps used to explore and understand the dataset better, before cleaning and transformation.
-Rows: 50000
-Columns: 7 Columns
+Rows: 33787
+Columns: 8 Columns
 
+#### On Excel 
+- Calculate using pivot table:
+-  The total sales by region
+-  Total sales
+-  Average of  sales
+-  Total sales per product
+
+  
 
 
 
