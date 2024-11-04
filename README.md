@@ -78,6 +78,7 @@ Columns: 8 Columns
 -  Total sales
 -  Average of  sales
 -  Total sales per product
+![Excel Pivot](https://github.com/user-attachments/assets/8b1e896d-551d-4747-8a6d-5255625e43cb)
 
   
 
