@@ -20,7 +20,9 @@
 
 [SQL Data Analysis](#sql-data-analysis)
 
-[Data Visualization](#data-visualization)
+[Dashboard Overview](#dashboard-overview)
+
+[Data Analysis and Insights Generation](#data-analysis-and-insights-generation)
 
 [Conclusion](#conclusion)
 
@@ -117,7 +119,18 @@ FROM [dbo].[CUSTOMER DATA1]
 GROUP BY subscriptiontype;
 ```
 ![Sub type bytotal revenue](https://github.com/user-attachments/assets/d63be903-e570-4120-953a-b68540942d9f)
+---
+
+### Dashboard Overview
+---
 
 
 
+### Data Analysis and Insights Generation
+
+
+### Conclusion
+
+
+### Recommendation
 
