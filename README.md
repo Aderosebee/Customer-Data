@@ -27,8 +27,10 @@
 [Recommendation](#recommendation)
 
 ### Project Overview For Customer Data
+---
 The project aims to analyze customer subscription data to assess revenue, subscription patterns, and the overall performance of various subscription types. Key columns in the data include CustomerID, CustomerName, Region, SubscriptionType, SubscriptionStart, SubscriptionEnd, Canceled, Revenue, Subscription Duration, and Average Subscription Duration. This analysis will provide insights into customer behavior, identify regions or subscription types that contribute most to revenue, and determine how long customers typically stay subscribed. The data will also help in understanding churn rates by looking at canceled subscriptions.
 
+---
 ### Measures
 - CustomerID: Unique identifier for each customer.
 - CustomerName: Name of the customer (anonymized if necessary).
@@ -39,10 +41,13 @@ The project aims to analyze customer subscription data to assess revenue, subscr
 - Canceled: Indicates if the subscription was canceled (TRUE or FALSE).
 - Revenue: Revenue generated from the customer's subscription.
 - Subscription Duration: Duration (in days) of the subscription period
+
+---
 ### Data Source
 The main data sources for this analysis is the  "Customer.csv" files, which is an open-source dataset available for free download from online repositories like Kaggle, FRED, or other similar platforms.
 
 ### Tools Used
+---
 - Excel: Employed for data cleaning and visualization.
 - SQL: Utilized for data cleaning through queries.
 - Power BI: Used for both data cleaning and visualization.
@@ -78,6 +83,7 @@ Columns: 8 Columns
 -  Total sales
 -  Average of  sales
 -  Total sales per product
+  
 ![Excel Pivot](https://github.com/user-attachments/assets/8b1e896d-551d-4747-8a6d-5255625e43cb)
 
 #### SQL Data Analysis
